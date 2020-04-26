@@ -1,6 +1,7 @@
 @Library ('jenkins-share-library') _
+
 node {
-   config('Globalconfig.yml') {
+   config('globalconfig.yml') {
         println "Success"
    }
 }
